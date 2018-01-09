@@ -1,0 +1,19 @@
+{
+  "name": "version-checking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node dev.js",
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "cheerio": "^1.0.0-rc.2",
+    "html-minifier": "^3.5.4",
+    "stylus": "^0.54.5"
+  }
+}

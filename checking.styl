@@ -1,0 +1,149 @@
+html, body {
+  background: white;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: 'Microsoft YaHei', '宋体';
+  color: #676d75;
+  white-space: nowrap;
+  text-align: center;
+
+  * {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+h1,p{
+  text-align: left;
+}
+
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wraper-prev {
+  width: 1px;
+  height: 90%;
+  *height: 17%;
+  _height: 17%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wraper {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1000px;
+  height: 550px;
+}
+
+.mark-left, .mark-right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 60px;
+
+  img {
+    position: absolute;
+  }
+
+  &.mark-left {
+    left: 0;
+
+    img {
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &.mark-right {
+    right: 0;
+
+    img {
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.content {
+  margin: 0 60px;
+  _width: 100%;
+
+  p {
+    font-size: 19px;
+    margin: 30px 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    line-height: 75px;
+    font-size: 46px;
+    font-weight: bold;
+
+    img {
+      position: relative;
+      top: -5px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+
+    td {
+      text-align: center;
+
+      &.warn2link {
+        text-align: left;
+      }
+    }
+
+    p {
+      margin: 16px 0;
+      padding: 0;
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 16px;
+      display: block;
+    }
+
+    a {
+      width: 125px;
+      display: inline-block;
+      text-decoration: none;
+      color: #676d75;
+    }
+  }
+
+  hr {
+    background: #676d75;
+    border: none;
+    outline: none;
+    height: 2px;
+    margin: 25px 0;
+
+    &.smaller {
+      height: 1px;
+      margin: 40px 0;
+    }
+  }
+}
+
+.tipbar {
+  width: 100%;
+}
